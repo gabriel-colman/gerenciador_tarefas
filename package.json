@@ -1,0 +1,25 @@
+{
+    "name": "gerenciamento_tarefas",
+    "version": "1.0.0",
+    "description": "Uma aplicação de gerenciamento de tarefas.",
+    "main": "src/app.js",
+    "scripts": {
+      "dev": "nodemon src/app.js",
+      "build": "next build",
+      "start": "NODE_ENV=production node src/app.js",
+      "test": "jest"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.12.3",
+      "jsonwebtoken": "^8.5.1",
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7",
+      "jest": "^26.6.3",
+      "supertest": "^6.1.3"
+    }
+  }
